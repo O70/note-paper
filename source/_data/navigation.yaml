@@ -1,32 +1,85 @@
 {
   "logo": {
-    "text": "Hexo Doc Theme Seed",
+    "text": "Notes",
     "type": "link",
     "path": "index.html"
   },
   "main": [
+    # {
+    #   "text": "GitHub/Gitee Pages + Hexo",
+    #   "type": "link",
+    #   "path": "git-Pages-Hexo.html"
+    # }, 
     {
-      "text": "SWAGGER",
-      "type": "label"
-    },
-    {
-      "text": "UI",
+      "text": "Tables of Contents",
       "type": "link",
-      "path": "swagger/ui.html"
+      "path": "tables-of-contents.html"
     },
     {
-      "text": "To HTML",
-      "type": "link",
-      "path": "swagger/to-html.html"
+      "text": "Git",
+      "type": "label",
+      "children": [
+        {
+          "text": "GitHub/Gitee Pages",
+          "type": "link",
+          "path": "git/git-pages-hexo.html"
+        },
+        {
+          "text": "Git Command",
+          "type": "link",
+          "path": "git/git-command.html"
+        }
+      ]
     },
     {
-      "text": "SUPPORT AND FEEDBACK",
-      "type": "label"
+      "text": "Java",
+      "type": "label",
+      "children": [
+        {
+          "text": "基础",
+          "type": "link",
+          "path": "git/git-pages-hexo.html"
+        },
+        {
+          "text": "高级特性",
+          "type": "link",
+          "path": "git/git-command.html"
+        }
+      ]
     },
     {
-      "text": "Raise an Issue on Github",
-      "type": "link",
-      "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
-    }
+      "text": "JavaScript",
+      "type": "label",
+      "children": [
+        {
+          "text": "ES6",
+          "type": "link",
+          "path": "git/git-pages-hexo.html"
+        }
+      ]
+    },
+    # {
+    #   "text": "SWAGGER",
+    #   "type": "label"
+    # },
+    # {
+    #   "text": "UI",
+    #   "type": "link",
+    #   "path": "swagger/ui.html"
+    # },
+    # {
+    #   "text": "To HTML",
+    #   "type": "link",
+    #   "path": "swagger/to-html.html"
+    # },
+    # {
+    #   "text": "SUPPORT AND FEEDBACK",
+    #   "type": "label"
+    # },
+    # {
+    #   "text": "Raise an Issue on Github",
+    #   "type": "link",
+    #   "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
+    # }
   ]
 }

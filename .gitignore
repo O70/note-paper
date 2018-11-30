@@ -3,3 +3,5 @@ node_modules
 public
 
 themes/doc
+
+package-lock.json

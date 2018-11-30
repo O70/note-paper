@@ -1,4 +1,4 @@
-title: hexo-theme-doc-seed
+title: Tables of Contents
 ---
 
 # hexo-theme-doc-seed
