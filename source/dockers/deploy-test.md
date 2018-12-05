@@ -31,21 +31,21 @@ $ mvn clean package -Dmaven.test.skip=true docker:build
 $ docker run -d --name esp-registry -p 8761:8761 10.122.22.115:5000/esp-registry
 
 $ docker run -d --name esp-config -p 8750:8750 \
-	-e CFG_EUREKA_HOST=10.122.22.115 \
-	10.122.22.115:5000/esp-config \
-	; docker logs -f esp-gateway
+  -e CFG_EUREKA_HOST=10.122.22.115 \
+  10.122.22.115:5000/esp-config \
+  ; docker logs -f esp-gateway
 
 $ docker run -d --name esp-gateway -p 8765:8765 \
-	-e CFG_CONFIG_HOST=10.122.22.115 \
-	-e SPRING_CLOUD_CONFIG_LABEL=env \
-	10.122.22.115:5000/esp-gateway \
-	; docker logs -f esp-gateway
+  -e CFG_CONFIG_HOST=10.122.22.115 \
+  -e SPRING_CLOUD_CONFIG_LABEL=env \
+  10.122.22.115:5000/esp-gateway \
+  ; docker logs -f esp-gateway
 
 $ docker run -d --name esp-admin -p 8085:8085 \
-	-e CFG_CONFIG_HOST=10.122.22.115 \
-	-e SPRING_CLOUD_CONFIG_LABEL=env \
-	10.122.22.115:5000/esp-admin \
-	; docker logs -f esp-admin
+  -e CFG_CONFIG_HOST=10.122.22.115 \
+  -e SPRING_CLOUD_CONFIG_LABEL=env \
+  10.122.22.115:5000/esp-admin \
+  ; docker logs -f esp-admin
 ```
 
 ## Docker Command
@@ -99,9 +99,9 @@ Environment="HTTPS_PROXY=http://proxy1.bj.petrochina:8080" "NO_PROXY=localhost, 
 ```
 # update port mapping
 {
-	...
-	"PortBindings":{"5000/tcp":[{"HostIp":"","HostPort":"5000"}]}
-	...
+  ...
+  "PortBindings":{"5000/tcp":[{"HostIp":"","HostPort":"5000"}]}
+  ...
 }
 ```
 
@@ -109,7 +109,7 @@ Environment="HTTPS_PROXY=http://proxy1.bj.petrochina:8080" "NO_PROXY=localhost, 
 ```sh
 $ vim /etc/docker/daemon.json
 { 
-	"insecure-registries":["10.122.22.115:5000"] 
+  "insecure-registries":["10.122.22.115:5000"] 
 }
 
 $ sudo systemctl daemon-reload
@@ -120,8 +120,8 @@ $ sudo systemctl restart docker
 ```sh
 $ vim /etc/docker/daemon.json
 {
-	"registry-mirrors": ["https://ik8akj45.mirror.aliyuncs.com"]
-    # "registry-mirrors":["https://docker.mirrors.ustc.edu.cn"]
+  "registry-mirrors": ["https://ik8akj45.mirror.aliyuncs.com"]
+  # "registry-mirrors":["https://docker.mirrors.ustc.edu.cn"]
 }
 ```
 
