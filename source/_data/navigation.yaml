@@ -32,32 +32,43 @@
       ]
     },
     {
-      "text": "Java",
+      "text": "Docker",
       "type": "label",
       "children": [
         {
-          "text": "基础",
+          "text": "Deploy Test",
           "type": "link",
-          "path": "git/git-pages-hexo.html"
-        },
-        {
-          "text": "高级特性",
-          "type": "link",
-          "path": "git/git-command.html"
+          "path": "dockers/deploy-test.html"
         }
       ]
     },
-    {
-      "text": "JavaScript",
-      "type": "label",
-      "children": [
-        {
-          "text": "ES6",
-          "type": "link",
-          "path": "git/git-pages-hexo.html"
-        }
-      ]
-    },
+    # {
+    #   "text": "Java",
+    #   "type": "label",
+    #   "children": [
+    #     {
+    #       "text": "基础",
+    #       "type": "link",
+    #       "path": "git/git-pages-hexo.html"
+    #     },
+    #     {
+    #       "text": "高级特性",
+    #       "type": "link",
+    #       "path": "git/git-command.html"
+    #     }
+    #   ]
+    # },
+    # {
+    #   "text": "JavaScript",
+    #   "type": "label",
+    #   "children": [
+    #     {
+    #       "text": "ES6",
+    #       "type": "link",
+    #       "path": "git/git-pages-hexo.html"
+    #     }
+    #   ]
+    # },
     # {
     #   "text": "SWAGGER",
     #   "type": "label"
