@@ -8,7 +8,9 @@ subtitle:
 description:
 keywords:
 author: 鬼王
-language: zh-cn
+language:
+# - en
+# - zh-cn
 timezone:
 
 # URL

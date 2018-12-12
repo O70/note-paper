@@ -15,7 +15,7 @@ open_graph:
 # logo:
 #   text: <logo string>
 logo:
-  # text: HANZO
+  text: HANZO
 
 article:
   # Show word count and estimated reading time.
@@ -25,8 +25,8 @@ article:
 
 # Navigation bar menu links.
 menu:
-  Archives: /archives
   Technology: /categories/Technology
+  Archives: /archives
   About: /about
 
 # Search plugin settings.
