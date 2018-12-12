@@ -1,5 +1,5 @@
 # Website's icon url.
-favicon: /favicon.png
+favicon: /images/favicon.ico
 
 # Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
 open_graph:
@@ -11,10 +11,11 @@ open_graph:
 
 # Website's logo shown on the left of the navigation bar.
 # It can either be an url to an image or a string if the following option is set.
+# Size: 148x56
 # logo:
 #   text: <logo string>
-logo: 
-  text: HANZO
+logo:
+  # text: HANZO
 
 article:
   # Show word count and estimated reading time.
