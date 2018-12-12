@@ -30,9 +30,7 @@ a.tag.article-tag {
 .navbar-main {
     border-bottom: 1px solid $border-color;
     transition: 0.1s ease-in;
-    // background-color: #181915;
     background-color: #292c34;
-    // background-color: #22252b;
 
     .navbar-logo {
         font-size: 1.5rem;
@@ -46,12 +44,13 @@ a.tag.article-tag {
     }
 
     a.navbar-item.is-active {
-        color: #3273dc;
+        color: #3273DC;
     }
 
     .toc .navbar-dropdown {
         max-height: 500px;
         overflow-y: auto;
+        background-color: #292C34;
     }
 }
 

@@ -5,20 +5,22 @@
 # Site
 title: HANZO
 subtitle:
-description:
+description: 鬼王, HANZO, THRAEX
 keywords:
 author: 鬼王
-language:
+language: en
 # - en
 # - zh-cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+# url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :directory/:category/:post_title.html
 permalink_defaults:
+  directory: documents
 
 # Directory
 source_dir: source
@@ -56,7 +58,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: others
 category_map:
 tag_map:
 
@@ -80,4 +82,5 @@ theme: hanzo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://gitee.com/Guiwang/Guiwang.git

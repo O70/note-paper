@@ -1,11 +1,20 @@
+---
 title: GitHub/Gitee Pages + Hexo
-date: 2018-11-14 18:15:58
+date: 2018-11-08 18:15:58
+categories:
+- Technology
+- Git
+tags:
+- Git Pages
+toc: true
 ---
 
 ## Requirements
 
 - Node.js
 - Git
+
+<!-- more -->
 
 ## Install Hexo:
 
