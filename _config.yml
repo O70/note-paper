@@ -82,5 +82,7 @@ theme: hanzo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: https://gitee.com/Guiwang/Guiwang.git
+- type: git
+  repo: https://github.com/O70/O70.github.io.git
