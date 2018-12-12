@@ -9,12 +9,16 @@ tags:
 toc: true
 ---
 
+<!-- 1024x438 -->
+![](/images/git-pages.png)
+使用GitHub/Gitee Pages + hexo搭建个人博客。
+
+<!-- more -->
+
 ## Requirements
 
 - Node.js
 - Git
-
-<!-- more -->
 
 ## Install Hexo:
 

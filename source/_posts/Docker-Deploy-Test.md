@@ -9,16 +9,17 @@ tags:
 toc: true
 ---
 
+![](/images/test.jpg)
+Docker部署Spring Boot应用，以测试Spring Cloud相关组件。
+
+<!-- more -->
+
 ```sh
 $ scp -r hanzo@10.122.22.115:/home/hanzo/Workspace/MicroServices/esp-framework .
 $ scp hanzo@10.122.22.115:/home/hanzo/Workspace/MicroServices/esp-framework/esp-gateway/target/gateway-0.0.1-SNAPSHOT.jar .
 ```
 
-<!-- more -->
-
 ## Runing Mode
-
-<!-- more -->
 
 - `maven`
 ```sh
