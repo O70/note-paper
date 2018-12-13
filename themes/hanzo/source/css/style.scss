@@ -27,14 +27,24 @@ a.tag.article-tag {
     }
 }
 
+$color-menu: #292C34;
+$color-dropdown: #3B404A;
+$color-active: #5E8BEB;
+
 .navbar-main {
     border-bottom: 1px solid $border-color;
     transition: 0.1s ease-in;
-    background-color: #292c34;
+    background-color: $color-menu;
 
     .navbar-logo {
         font-size: 1.5rem;
         font-weight: 600;
+    }
+    a.navbar-logo:active,
+    a.navbar-logo:hover,
+    a.navbar-logo:link,
+    a.navbar-logo:visited {
+        background-color: $color-menu;
     }
 
     .navbar-item {
@@ -44,13 +54,28 @@ a.tag.article-tag {
     }
 
     a.navbar-item.is-active {
-        color: #3273DC;
+        color: $color-active;
+        background-color: $color-dropdown;
     }
 
     .toc .navbar-dropdown {
         max-height: 500px;
         overflow-y: auto;
-        background-color: #292C34;
+        background-color: $color-dropdown;
+    }
+
+    a.navbar-item:hover,
+    .toc .navbar-dropdown a.navbar-item:hover {
+        color: $color-active;
+    }
+
+    .navbar-brand .navbar-burger {
+        color: #FFFFFF;
+    }
+
+    .navbar-menu.is-active,
+    .navbar-menu.is-active .navbar-item:hover {
+        background-color: $color-dropdown;
     }
 }
 
