@@ -9,12 +9,12 @@ tags:
 toc: true
 ---
 
-![](/images/food1.png)
+![Page 1](/images/food1.png)
 
 <!-- more -->
 
-![](/images/food2.png)
+![Page 2](/images/food2.png)
 
-![](/images/food3.png)
+![Page 3](/images/food3.png)
 
-![](/images/food4.png)
+![Page 4](/images/food4.png)
