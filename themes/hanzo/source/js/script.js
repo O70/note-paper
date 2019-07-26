@@ -80,5 +80,5 @@
         });
     }
 
-    console.info($('footer.footer').css('padding', 0))
+    $('footer.footer').css('padding', 0)
 })(jQuery);
