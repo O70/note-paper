@@ -1,17 +1,18 @@
 ---
 title: GitHub/Gitee Pages + Hexo
 date: 2018-11-08 18:15:58
+toc: true
 categories:
 - Technology
 - Git
 tags:
 - Git Pages
-toc: true
 ---
 
 <!-- 1024x438 -->
-![](/images/git-pages.png)
-使用GitHub/Gitee Pages + hexo搭建个人博客。
+![使用GitHub/Gitee Pages + hexo搭建个人博客](/images/git-pages.png)
+
+使用GitHub/Gitee Pages + hexo搭建个人博客
 
 <!-- more -->
 

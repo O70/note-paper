@@ -1,15 +1,16 @@
 ---
 title: Docker Deploy Test
 date: 2018-11-12 10:26:12
+toc: true
 categories:
 - Technology
 - Docker
 tags:
 - Docker
-toc: true
 ---
 
-![](/images/test.jpg)
+![Docker部署Spring Boot应用，以测试Spring Cloud相关组件](/images/test.jpg)
+
 Docker部署Spring Boot应用，以测试Spring Cloud相关组件。
 
 <!-- more -->

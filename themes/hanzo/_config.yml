@@ -62,9 +62,9 @@ search:
 navbar_links:
   GitHub:
     icon: fab fa-github
-    url: https://github.com/O70
+    url: https://github.com/O70/note-paper
 
 # Links at the bottom of the page.
 footer_links:
   京ICP备19029828号: http://www.miitbeian.gov.cn
-  GitHub: https://github.com/O70
+  GitHub: https://github.com/O70/note-paper

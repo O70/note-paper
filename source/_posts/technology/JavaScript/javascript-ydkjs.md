@@ -1,14 +1,20 @@
 ---
-title: You Dont't Know JavaScript
+title: You Don't Know JS
 date: 2018-01-19 09:00:00
+toc: true
 categories:
 - Technology
 - JavaScript
 tags:
 - JavaScript
 - ES6
-toc: true
 ---
+
+![You Don't Know JS Study Notes](https://ksr-ugc.imgix.net/assets/011/512/107/1988f3a0fc77cc3eac49cac6f1b7ebc0_original.png?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1463683806&auto=format&frame=1&q=92&s=7037537d3031513ff4a7222daf1256a3)
+
+You Don't Know JS Study Notes
+
+<!-- more -->
 
 # ES
 
@@ -21,8 +27,6 @@ toc: true
 ES6，发布日期从2013年拖到2014年，然后又到2015年。
 
 在ES6之前的JavaScript标准通常被称为ES5(严格说是ES5.1)。
-
-<!-- more -->
 
 ## 1. 作用域
 

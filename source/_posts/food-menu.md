@@ -1,14 +1,16 @@
 ---
 title: Food Menu
 date: 2019-04-12 11:37:25
+toc: true
 categories:
 - Life
 tags:
 - Food
-toc: true
 ---
 
-![Page 1](/images/food1.png)
+![Food Menu](/images/food1.png)
+
+Food Menu
 
 <!-- more -->
 
