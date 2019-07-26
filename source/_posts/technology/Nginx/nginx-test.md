@@ -15,7 +15,7 @@ Nginx Deploy Test
 
 <!-- more -->
 
-> ECS for Aliyun, CentOS 7.2 64Bit
+> ECS for Aliyun or CVM for Tencent, CentOS 7.2 64Bit
 
 ## Download
 
