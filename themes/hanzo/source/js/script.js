@@ -79,4 +79,6 @@
             $(this).text(moment($(this).attr('datetime')).fromNow());
         });
     }
+
+    console.info($('footer.footer').css('padding', 0))
 })(jQuery);
