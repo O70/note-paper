@@ -13,8 +13,6 @@ open_graph:
 # Size: 148x56
 # logo:
 #   text: <logo string>
-logo:
-  text: 个人文档记录
 
 article:
   # Show word count and estimated reading time.

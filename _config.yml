@@ -3,14 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 个人文档记录
+title: HANZO
 subtitle:
 description: 鬼王, HANZO, THRAEX
 keywords: 鬼王, O70, HANZO, THRAEX
 author: 鬼王
-language: zh-cn
+language:
   # - zh-cn
-  # - en
+  - en
 timezone:
 
 # URL
