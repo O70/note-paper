@@ -55,7 +55,12 @@
                     <hr class="navbar-divider">
                     <% } %>
                     <% lastHeading = heading[0].split('.')[0]; %>
-                    <a class="navbar-item" href="#<%= heading[1] %>"><%= heading[0] %>&nbsp;&nbsp;<%- heading[3] === 1 ? '<b>' : '' %><%= heading[2] %><%- heading[3] === 1 ? '</b>' : '' %></a>
+                    <a class="navbar-item" href="#<%= heading[1] %>">
+                      <% if (!has_config('tocIndex') || get_config('tocIndex') === true) { %>
+                        <%= heading[0] %>&nbsp;&nbsp;
+                      <% } %>
+                      <%- heading[3] === 1 ? '<b>' : '' %><%= heading[2] %><%- heading[3] === 1 ? '</b>' : '' %>
+                    </a>
                 <% } %>
                 </div>
             </div>

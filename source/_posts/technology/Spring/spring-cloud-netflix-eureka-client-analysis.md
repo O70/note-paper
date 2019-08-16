@@ -2,13 +2,15 @@
 title: Spring Cloud Netflix Eureka Client Analysis
 date: 2019-08-16 16:00:00
 toc: true
+tocIndex: false
 categories:
 - Technology
 - Spring
-- Spring Cloud
+- Spring-Cloud
 tags:
-- Netflix
-- Eureka
+- spring-cloud
+- netflix
+- eureka
 ---
 
 ![Spring Cloud Netflix Eureka Client Analysis](/images/test.jpg)
