@@ -10,9 +10,9 @@ tags:
 ---
 
 <!-- 1024x438 -->
-![使用GitHub/Gitee Pages + hexo搭建个人博客](/images/git-pages.png)
+![使用GitHub/Gitee Pages + hexo搭建个人文档记录](/images/git-pages.png)
 
-使用GitHub/Gitee Pages + hexo搭建个人博客
+使用GitHub/Gitee Pages + hexo搭建个人文档记录
 
 <!-- more -->
 
