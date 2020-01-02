@@ -11,8 +11,8 @@ open_graph:
 # Website's logo shown on the left of the navigation bar.
 # It can either be an url to an image or a string if the following option is set.
 # Size: 148x56
-# logo:
-#   text: <logo string>
+logo:
+  text: 个人文档记录
 
 article:
   # Show word count and estimated reading time.
